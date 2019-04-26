@@ -11,6 +11,7 @@ My custom LISP dialect. Named after "Espaço de Vivência Prof Horácio C. Panep
 
   * Heavy Unicode usage.
   * Near mathematical treatment for functions. Ex: ```⟼⟼(^(^(x a) b)) ^(x *(a b)))```
+  * Supportt for non indo-arabic number systems: ```14i = XIVi = 𓎆𓏽i = 𒌋𒐉i``` (roman numerals only in upper case)
   * Number literals for complex and quaterions: ```5i```, ```3.14E9j```, ```-7E-8k```
   * Functions and lists have separate but similar syntax: ```*(3 2)``` gives 6, ```(* 3 2)```is a list that begins with a function, ```eval(* 1 2)``` gives 6.
   * Separation between pure and impure functions: Ex: ```⧓(...)``` (subroutine with potential side effects, bowtie reminds me of business), ```⟼(...)``` (pure function with no side effects).
