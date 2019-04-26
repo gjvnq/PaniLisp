@@ -1,4 +1,4 @@
-# PaniLisp
+# paniLISP
 My custom LISP dialect. Named after "Espaço de Vivência Prof Horácio C. Panepucci" at IFSC-USP
 
 ## Inspirations
@@ -31,3 +31,9 @@ My custom LISP dialect. Named after "Espaço de Vivência Prof Horácio C. Panep
     ⟼⟼(sum(a<Number> b<Number>) sum(b a))
     ⟼⟼(sum(0 b<Number>...) sum(b...))
   ```
+## Builtin Values
+
+  * ```PI = π = 3.14159265359```
+  * ```EULER = 𝑒 = 2.7182818284590452353602874713527```
+
+## Builtin Functions
